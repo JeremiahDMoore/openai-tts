@@ -49,9 +49,9 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message }) => {
   return (
     <div className={`flex ${isAssistant ? 'justify-start' : 'justify-end'} mb-4`}>
       <div className={`max-w-[80%] p-4 rounded-lg ${
-        isAssistant 
-          ? 'bg-gray-200 text-gray-800' 
-          : 'bg-blue-500 text-white'
+        isAssistant
+          ? 'bg-[#ede9fe] text-[#4c1d95]'
+          : 'bg-accent text-white'
       }`}>
         <div className="flex items-start gap-2">
           {isAssistant && (

@@ -67,12 +67,13 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
-      <div className="w-full max-w-2xl bg-white rounded-lg shadow-md flex flex-col h-[80vh]">
+    <div className="min-h-screen bg-gray-200 flex items-center justify-center p-4">
+      <div className="w-full max-w-2xl bg-gray-100 rounded-lg shadow-md flex flex-col h-[80vh]">
         {/* Header */}
         <div className="p-4 border-b flex items-center gap-2">
-          <Bot className="text-blue-500" size={24} />
+          <Bot className="text-accent" size={24} />
           <h1 className="text-xl font-semibold">AI Assistant with TTS</h1>
+          {/* <p className="text-accent ml-4">Accent test text</p> */}
         </div>
         
         {/* Chat Messages */}
