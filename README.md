@@ -1,7 +1,7 @@
 # OpenAI TTS
 
 ## Overview
-This project is a web application that demonstrates integration with OpenAI services and text-to-speech functionality.
+This project is a web application that demonstrates integration with OpenAI services and text-to-speech functionality. You must provide your own OpenAI API key to run the project. It currently uses OpenAI o1-mini for chat generation, and OpenAI tts-1 "ash" for voice.
 
 ## Requirements
 - Node.js (>=14.0.0)
@@ -10,7 +10,7 @@ This project is a web application that demonstrates integration with OpenAI serv
 ## Setup
 1. Clone the repository.
 2. Install dependencies by running `npm install` in the project root.
-3. Configure the environment variables in a `.env` file if necessary.
+3. Configure your OpenAI API key in a `.env` file for security.
 
 ## Running the Project
 To start the development server, run:
@@ -29,4 +29,4 @@ To create a production build, run:
 ```bash
 npm run build
 ```
-Customize configuration files as necessary for your deployment environment.
+Customize configuration files as necessary for your deployment environment. Change the prompt, voice, or GPT model and make it your own!
